@@ -1,0 +1,219 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+}
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: transparent;
+}
+
+.logo {
+    height: 40px;
+}
+
+.signout {
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    height: 30px;
+    width: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+.signout:hover {
+    background-color: rgb(229, 0, 0);
+}
+
+.main-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+    background-image: url('https://isquad.tv/wp-content/uploads/2018/08/Netflix-Background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.welcome-container {
+    padding: 20px;
+    margin-left: auto;
+    margin-left: auto;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.welcome-title{
+ margin-top: 200px;   
+}
+
+.finish-signup {
+    margin-top: 25px;
+    color: white;
+    background-color: red;
+    border-radius: 4px;
+    height: 60px;
+    width: 200px;
+    border: none;
+    cursor: pointer;
+}
+
+.finish-signup:hover {
+    background-color: rgb(227, 0, 0);
+}
+
+.bar {
+    height: 8px;
+    width: 100%;
+    background-color: rgb(37, 37, 37);
+}
+
+.section {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #000000;
+}
+
+.secondtxt2 {
+    padding: 40px 20px;
+    background-color: black;
+}
+
+.responsive-img {
+    max-width: 100%;
+    height: auto;
+}
+#tv{
+    background-size: cover;
+    background-position: center;
+    background-size: 500px;
+    background-image: url("https://th.bing.com/th/id/R.413b66270aaa0aa8ae3c7ceb6da244be?rik=fwFTrXgn2bwLjA&pid=ImgRaw&r=0");
+}
+.download-notification {
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+    border: 2px solid #828282;
+    border-radius: 8px;
+    height: 60px;
+    width: 280px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    padding: 10px;
+    position: relative;
+}
+
+.download-notification .boxshot {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.download-info {
+    flex: 1;
+}
+
+.downloading-text {
+    font-size: 11px;
+    color: blue;
+}
+
+.loading-indicator {
+    border: 3px solid blue;
+    border-top: 3px solid black;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+.kids-img {
+    margin: 0 auto;
+    display: block;
+}
+
+.faq-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.faq {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.5);
+    padding: 15px;
+    height: 60px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.faq:hover {
+    background-color: rgba(128, 128, 128, 0.7);
+}
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .footer-column {
+    flex: 1;
+    margin: 10px;
+    min-width: 150px;
+  }
+  
+  .footer-column a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+  }
+  
+  .footer-column a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-lang {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .footer-lang select {
+    background: #333;
+    color: #fff;
+    border: 1px solid #333;
+    padding: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 12px;
+  }
+  
